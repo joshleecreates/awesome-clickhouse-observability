@@ -2,7 +2,7 @@
 
 A collection of awesome resources for ClickHouse-powered observability. Includes both commerial and FOSS tools, as well as many resources.
 
-*Last Updated July 28, 2026*
+*Last Updated August 6, 2026*
 
 ## Contents
 
@@ -36,6 +36,7 @@ A collection of awesome resources for ClickHouse-powered observability. Includes
 | [PostHog](https://posthog.com/) | OSS, SaaS | Product analytics suite with error tracking that automatically connects errors to sessions, recordings, and feature flags. |
 | [Sentry](https://sentry.io/) | OSS, SaaS | Error tracking and metrics platform that uses ClickHouse as its storage layer. |
 | [SigNoz](https://signoz.io/) | OSS, SaaS | OpenTelemetry-native open source Datadog alternative using a ClickHouse columnar datastore, with query builder, PromQL, and raw ClickHouse SQL. |
+| [Tinybird](https://www.tinybird.co/observability) | SaaS | Managed ClickHouse platform for ingesting, transforming, and querying OpenTelemetry logs, metrics, and traces, with sub-second SQL analytics, Prometheus-compatible APIs, and integrations with Grafana, HyperDX, and other ClickHouse clients. |
 | [Uptrace](https://uptrace.dev/) | OSS, SaaS | OpenTelemetry APM for traces, metrics, and logs that stores data in ClickHouse to cut storage and improve query performance vs. Elasticsearch. |
 
 *All information is provided on a best-effort basis. Contact @joshleecreates for corrections*
