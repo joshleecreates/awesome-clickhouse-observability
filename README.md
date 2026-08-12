@@ -33,6 +33,7 @@ A collection of awesome resources for ClickHouse-powered observability. Includes
 | [IBM Instana](https://www.ibm.com/products/instana) | SaaS | Enterprise APM with 100% unsampled tracing powered by ClickHouse and a proprietary TSDB for near-real-time alerting (also offers self-hosted). |
 | [Jaeger](https://www.jaegertracing.io/) | OSS | CNCF distributed tracing platform (originally from Uber) that supports ClickHouse as an experimental storage backend behind a feature gate, alongside Cassandra, Elasticsearch, and OpenSearch. |
 | [Last9](https://last9.io/) | SaaS, BYOC | Offers 100% unsampled ClickHouse-powered tracing plus a control plane that manages telemetry at runtime without redeployments. |
+| [Measure](https://measure.sh/) | OSS, SaaS | Open source mobile app monitoring and crash reporting (a Firebase Crashlytics alternative) for Android, iOS, Flutter, and React Native, capturing crashes, ANRs, traces, network activity, and session replays with ClickHouse for storage; run self-hosted or on Measure Cloud. |
 | [PostHog](https://posthog.com/) | OSS, SaaS | Product analytics suite with error tracking that automatically connects errors to sessions, recordings, and feature flags. |
 | [Sentry](https://sentry.io/) | OSS, SaaS | Error tracking and metrics platform that uses ClickHouse as its storage layer. |
 | [SigNoz](https://signoz.io/) | OSS, SaaS | OpenTelemetry-native open source Datadog alternative using a ClickHouse columnar datastore, with query builder, PromQL, and raw ClickHouse SQL. |
