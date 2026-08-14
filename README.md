@@ -34,6 +34,7 @@ A collection of awesome resources for ClickHouse-powered observability. Includes
 | [Jaeger](https://www.jaegertracing.io/) | OSS | CNCF distributed tracing platform (originally from Uber) that supports ClickHouse as an experimental storage backend behind a feature gate, alongside Cassandra, Elasticsearch, and OpenSearch. |
 | [Last9](https://last9.io/) | SaaS, BYOC | Offers 100% unsampled ClickHouse-powered tracing plus a control plane that manages telemetry at runtime without redeployments. |
 | [Measure](https://measure.sh/) | OSS, SaaS | Open source mobile app monitoring and crash reporting (a Firebase Crashlytics alternative) for Android, iOS, Flutter, and React Native, capturing crashes, ANRs, traces, network activity, and session replays with ClickHouse for storage; run self-hosted or on Measure Cloud. |
+| [Phare](https://phare.io/) | SaaS | Website and API uptime monitoring with performance visualization based on ClickHouse. |
 | [PostHog](https://posthog.com/) | OSS, SaaS | Product analytics suite with error tracking that automatically connects errors to sessions, recordings, and feature flags. |
 | [Sentry](https://sentry.io/) | OSS, SaaS | Error tracking and metrics platform that uses ClickHouse as its storage layer. |
 | [SigNoz](https://signoz.io/) | OSS, SaaS | OpenTelemetry-native open source Datadog alternative using a ClickHouse columnar datastore, with query builder, PromQL, and raw ClickHouse SQL. |
@@ -123,7 +124,7 @@ Evergreen docs first, then dated guides newest to oldest.
 | 2025-10 | [Production-Grade Observability with SigNoz, ClickHouse, OTel (Shivee Gupta)](https://medium.com/@ShiveeGupta/building-a-production-grade-observability-platform-with-signoz-clickhouse-and-opentelemetry-d7f09a5250f5) | Real-world architecture using Kafka as a buffer into a 3-shard/3-replica ClickHouse cluster with 90-day tiering. |
 | 2024-09 | [An Introduction to the OpenTelemetry Collector (Altinity)](https://altinity.com/blog/an-introduction-to-the-opentelemetry-collector) | Primer on the Collector as a "universal translator" — receivers, processors, exporters, and connectors for routing metrics, traces, and logs. |
 | 2024-09 | [Kubernetes Cluster Logging with ClickHouse and OpenTelemetry (Altinity)](https://altinity.com/blog/kubernetes-cluster-logging-with-clickhouse-and-opentelemetry) | Working demo wiring an OTel Collector daemonset with the filelog receiver to ship all Kubernetes cluster logs into ClickHouse, visualized in Grafana, with deployable Helm code. |
-
+| 2024-07 | [Downsampling time series data (Phare)](https://phare.io/blog/downsampling-time-series-data/) | Learn how to use the largest triangle three buckets (LTTB) algorithm for downsampling to efficiently show uptime monitoring data. |
 ---
 
 ## Benchmarks
