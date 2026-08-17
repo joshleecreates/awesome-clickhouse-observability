@@ -1,6 +1,6 @@
 # Awesome ClickHouse® Observability
 
-A collection of awesome resources for ClickHouse-powered observability. Includes both commerial and FOSS tools, as well as many resources.
+A collection of awesome resources for ClickHouse-powered observability. Includes both commercial and FOSS tools, as well as many resources.
 
 *Last Updated August 6, 2026*
 
