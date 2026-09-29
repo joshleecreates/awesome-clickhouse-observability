@@ -51,6 +51,7 @@ A collection of awesome resources for ClickHouse-powered observability. Includes
 | [ClickHouse plugin for Grafana](https://grafana.com/grafana/plugins/grafana-clickhouse-datasource/) | Official Grafana data source for ClickHouse, now shipping pre-built OpenTelemetry dashboards for logs, traces, and per-service deep dives. |
 | [OTel Collector ClickHouse Exporter](https://clickhouse.com/docs/observability/integrating-opentelemetry) | The OTel Collector Contrib distro's ClickHouse exporter and filelog receiver — the core pipeline component for a ClickHouse-based solution. |
 | [Altinity Kubernetes Operator for ClickHouse](https://github.com/Altinity/clickhouse-operator) | Open source operator managing ClickHouse deployment, upgrades, backups, and replication in Kubernetes. |
+| [diskvet](https://github.com/Protemir/diskvet) | Free, open source, read-only shell script that checks what fills the disk of the ClickHouse inside self-hosted SigNoz, ClickStack and Langfuse (system log tables without a TTL, parts, detached parts, stuck mutations) and prints the fix commands. Runs through `docker exec` or `kubectl exec`. |
 
 
 ## PromQL in ClickHouse
@@ -115,6 +116,7 @@ Evergreen docs first, then dated guides newest to oldest.
 | — | [Observability engineering resources hub (ClickHouse)](https://clickhouse.com/resources/engineering/observability) | Reference on the SQL-based approach, using LogHouse's 16x compression multi-region setup as the model. |
 | — | [OpenTelemetry ClickHouse Query Guide (Altinity)](https://altinity.com/useful-observability-queries/) | Practical SQL examples for querying OTel logs, metrics, and traces in ClickHouse, with common filters and Grafana visualization patterns. |
 | — | [ClickHouse Monitoring Knowledge Base (Altinity)](https://kb.altinity.com/altinity-kb-setup-and-maintenance/altinity-kb-monitoring/) | Altinity KB reference on monitoring ClickHouse itself via system tables, ProfileEvents, metric_log, and Prometheus/Grafana. |
+| 2026-09 | [Why ClickHouse fills the disk in self-hosted Langfuse and SigNoz, and how to fix it (diskvet)](https://diskvet.dev/guide/) | System log tables without a TTL, TRUNCATE over 50 GB, TTLs that only apply on merge, and Docker's own logs, with every command tested on ClickHouse 24.8 to 26.9. |
 | 2026-03 | [How to Use ClickHouse with Open Source Observability Stacks (OneUptime)](https://oneuptime.com/blog/post/2026-03-31-clickhouse-open-source-observability/view) | Building a logs-metrics-traces platform with OpenTelemetry, Grafana, and Vector. |
 | 2026-03 | [How to Use ClickHouse as a Backend for SigNoz (OneUptime)](https://oneuptime.com/blog/post/2026-03-31-clickhouse-signoz-backend/view) | Configuring and tuning SigNoz's ClickHouse storage for production, including sharded/replicated Helm deployment. |
 | 2026-02 | [How to Configure the ClickHouse Exporter in the OTel Collector (OneUptime)](https://oneuptime.com/blog/post/2026-02-06-clickhouse-exporter-opentelemetry-collector/view) | Configuration patterns for schema optimization, compression, and materialized views on the exporter. |
